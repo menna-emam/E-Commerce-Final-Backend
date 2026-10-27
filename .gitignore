@@ -1,0 +1,21 @@
+# مكتبات (أي حد بيعملها بـ npm install)
+node_modules/
+
+# أسرار (ممنوع تترفع أبداً)
+.env
+
+# ملفات بتتولّد وقت التشغيل
+logs/
+backups/
+
+# ملفات Angular المؤقتة
+.angular/
+dist/
+
+# ملفات النظام
+Thumbs.db
+.DS_Store
+
+# ملفات مضغوطة
+*.rar
+*.zipgit -C mystore log --oneline
